@@ -1,0 +1,43 @@
+@import url("reset.css");
+
+
+.conteiner-intro p {
+	color: rgb(121, 23, 23);
+}
+
+.conteiner-climate * {
+	color: blueviolet;
+}
+
+.conteiner-population>p {
+	color: blue;
+}
+
+.transport-title~p {
+	color: aqua;
+}
+
+.time-zone-title+p {
+	color: red;
+}
+
+.kitchen-title,
+.kitchen-text {
+	color: aquamarine;
+}
+
+div.lorem-text-2 {
+	color: bisque;
+}
+
+[class*="lorem-items"] {
+	color: blueviolet;
+}
+
+.lorem-black {
+	color: rgb(0, 0, 0);
+}
+
+#battom {
+	color: red;
+}
