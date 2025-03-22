@@ -1,0 +1,141 @@
+@import url("reset.css");
+/* Google fonts: insert CSS @import - використовується для додавання шрифту в CSS за допомогою @import */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap");
+
+/* Приклади підключення локально,якщо шрифту немає на сервісі https://fonts.google.com/ */
+@font-face {
+	font-family: "PTSerif-Bold";
+	src: url("../fonts/PTSerif-Bold.woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PTSerif-Italic";
+	src: url("../fonts/PTSerif-Italic.woff2");
+	font-weight: 400;
+	font-style: italic;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PTSerif-Regular";
+	src: url('../fonts/PTSerif-Regular.woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+.header__conteiner {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+.header__title {
+	color: #1A1A1A;
+	font-style: 20px;
+	font-weight: 500;
+}
+
+.header__text {
+	color: #808080;
+	font-style: 18px;
+	font-weight: 400;
+}
+
+.main__conteiner--paragraph-1 {
+	text-transform: capitalize;
+	text-align: center;
+	font-family: "PTSerif-Regular", sans-serif;
+	font-style: oblique;
+}
+
+.main__span--paragraph-1 {
+	color: #0e0bd6;
+	text-decoration: line-through;
+	text-decoration-color: rgb(255, 8, 0);
+}
+
+.main__span--paragraph-2 {
+	text-decoration-line: underline;
+	text-underline-offset: 3px;
+}
+
+.main__span--paragraph-3 {
+	text-decoration: overline;
+	text-decoration-thickness: 2px;
+	text-decoration-style: dashed;
+	/* Маємо такі стилі (double,dotted,wavy,dashed) */
+	text-decoration-color: rgb(241, 4, 4);
+	text-shadow: 3px -4px 3px #2706b9, 3px 4px 3px #06b915;
+}
+
+.main__conteiner--paragraph-2 {
+	font-family: "PTSerif-Italic", serif;
+	font-style: italic;
+	text-transform: lowercase;
+	text-align-last: left;
+
+}
+
+.main__conteiner--paragraph-3 {
+	font-family: "Creepster", fantasy;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.main__conteiner--paragraph-4 {
+	color: rgba(24, 158, 20, 0.5);
+	white-space: nowrap;
+	text-align: justify;
+	text-shadow: 2px 2px 5px #949206a2;
+	letter-spacing: 1px;
+	word-spacing: 7px;
+}
+
+.footer__list {
+	font-family: "Inter", sans-serif;
+	font-display: swap;
+	font-size: 24px;
+}
+
+.footer__item--100 {
+	font-weight: 100;
+}
+
+.footer__item--200 {
+	font-weight: 200;
+}
+
+.footer__item--300 {
+	font-weight: 300;
+}
+
+.footer__item--400 {
+	font-weight: 400;
+}
+
+.footer__item--500 {
+	font-weight: 500;
+}
+
+.footer__item--600 {
+	font-weight: 600;
+}
+
+.footer__item--700 {
+	font-weight: 700;
+}
+
+.footer__item--800 {
+	font-weight: 800;
+}
+
+.footer__item--900 {
+	font-weight: 900;
+}
