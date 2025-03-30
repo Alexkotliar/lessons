@@ -1,0 +1,138 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular&display=swap");
+
+.main {
+	padding: 100px 15px;
+	background: #231F8B;
+	overflow: hidden;
+}
+
+.section {
+	width: 100%;
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.section__content {
+	margin-bottom: 70px;
+}
+
+.section__item {
+	margin-bottom: 10px;
+
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	color: #5A54F2;
+	line-height: 1.71;
+	letter-spacing: 0.2px;
+}
+
+.section__title--h2 {
+	margin-bottom: 10px;
+	color: #FFF;
+	font-family: "Circular Std", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.section__paragraf {
+	max-width: 765px;
+	font-size: 14px;
+	font-family: "Circular Std", sans-serif;
+	line-height: 1.43;
+	letter-spacing: 0.2px;
+	color: #FFF;
+
+}
+
+.card {
+	width: 100%;
+	min-height: 360px;
+	margin: 0 -20px;
+	font-size: 0;
+}
+
+.section__card {
+	display: inline-block;
+	width: 25%;
+	padding: 0 20px;
+	font-size: 14px;
+	color: #000;
+}
+
+.section__card--1,
+.section__card--2,
+.section__card--3,
+.section__card--4 {
+	padding: 35px 40px;
+	background-color: #fff;
+
+	font-family: "Montserrat", sans-serif;
+	color: #737373;
+	line-height: 1.43;
+	letter-spacing: 0.2px;
+}
+
+.section__card--1 {
+	background-color: #FFF;
+}
+
+.section__card--img {
+	width: 100%;
+	max-width: 72px;
+	height: 72px;
+	margin-bottom: 20px;
+}
+
+.card--top {
+	vertical-align: top;
+}
+
+.card--bottom {
+	padding-top: 48px;
+}
+
+.section__card--title {
+	margin-bottom: 20px;
+
+	font-family: "Circular Std", sans-serif;
+	font-size: 16px;
+	color: #252B42;
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+}
+
+.section__card-line {
+	max-width: 50px;
+	height: 2px;
+	margin-bottom: 20px;
+	font-size: 0;
+	color: transparent;
+	background-color: #E74040;
+}
+
+.section__card--2 {
+	background-color: #FFF;
+
+}
+
+.section__card--3 {
+	background: #5A54F2;
+}
+
+.card-blue,
+.section__card--3--paragraf {
+	color: #FFF;
+
+}
+
+.section__card--4 {
+	background-color: #FFF;
+
+}
+
+.section__card--img-lain-3 {
+	padding-bottom: 20px
+}
