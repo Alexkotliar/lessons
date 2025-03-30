@@ -1,7 +1,12 @@
 @import url("reset.css");
-@import url("/fonts/Circular-Std.woff2");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:regular&display=swap");
 
+@font-face {
+	font-family: "Circular-Std";
+	src: url("../fonts/Circular-Std.woff2");
+	font-style: normal;
+	font-display: swap;
+}
 .main {
 	padding: 100px 15px;
 	background: #231F8B;
