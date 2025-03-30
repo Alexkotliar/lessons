@@ -1,5 +1,5 @@
 @import url("reset.css");
-@import url("fonts.css");
+@import url("/fonts/Circular-Std.woff2");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:regular&display=swap");
 
 .main {
@@ -31,7 +31,7 @@
 .section__title--h2 {
 	margin-bottom: 10px;
 	color: #FFF;
-	font-family: "Circular Std", sans-serif;
+	font-family: "Circular-Std", sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 }
@@ -39,7 +39,7 @@
 .section__paragraf {
 	max-width: 765px;
 	font-size: 14px;
-	font-family: "Circular Std", sans-serif;
+	font-family: "Circular-Std", sans-serif;
 	line-height: 1.43;
 	letter-spacing: 0.2px;
 	color: #FFF;
@@ -96,7 +96,7 @@
 .section__card--title {
 	margin-bottom: 20px;
 
-	font-family: "Circular Std", sans-serif;
+	font-family: "Circular-Std", sans-serif;
 	font-size: 16px;
 	color: #252B42;
 	font-weight: 700;
