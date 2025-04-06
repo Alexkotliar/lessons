@@ -6,7 +6,9 @@
 	src: url("../fonts/Circular-Std.woff2");
 	font-style: normal;
 	font-display: swap;
+	font-weight: 400;
 }
+
 .main {
 	padding: 100px 15px;
 	background: #231F8B;
@@ -67,9 +69,7 @@
 }
 
 .section__card--1,
-.section__card--2,
-.section__card--3,
-.section__card--4 {
+.section__card--3 {
 	padding: 35px 40px;
 	background-color: #fff;
 
